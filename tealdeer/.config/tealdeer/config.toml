@@ -1,0 +1,21 @@
+[display]
+compact = false
+use_pager = true
+
+[updates]
+auto_update = true
+
+[style.description]
+foreground = { rgb = [94, 129, 172] }  # Light blue
+
+[style.command_name]
+foreground = { rgb = [112, 219, 89] }  # Neon Green
+
+[style.example_text]
+foreground = { rgb = [139, 233, 253] }  # Cyan
+
+[style.example_code]
+foreground = { rgb = [112, 219, 89] }  # Neon Green
+
+[style.example_variable]
+foreground = { rgb = [112, 219, 89] }  # Neon Green

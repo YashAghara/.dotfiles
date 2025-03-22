@@ -1,0 +1,9 @@
+font-size = 15
+font-family = "0xProto Nerd Font"
+window-decoration = false
+window-padding-x = 0,0
+window-padding-y = 0,0
+theme = tokyonight
+window-height = 1000
+window-width = 1000
+font-feature = -dlig
