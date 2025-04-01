@@ -1,6 +1,6 @@
 [general]
 import = [
-  "~/.config/alacritty/tokyo-night.toml"
+  "~/.config/alacritty/rose-pine.toml"
 ]
 
 [env]
@@ -12,8 +12,8 @@ padding.y = 14
 decorations = "None"
 startup_mode = "Maximized"
 
-# [terminal.shell]
-# program = "tmux"
+[terminal.shell]
+program = "tmux"
 
 [font]
 size = 14.0
