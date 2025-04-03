@@ -17,14 +17,10 @@ Install the following tools to enhance your terminal experience:
 - **bat**: Syntax-highlighted `cat` replacement
 - **Neovim**: Text editor
 - **fish**: Friendly Interactive Shell
-- **hyperland**: Wayland compositor
-- **waybar**: Wayland status bar
-- **wofi**: Wayland application launcher
-- **btop**: Resource monitor
 
 ## Installing Packages (Example for openSUSE)
 
 Replace `zypper` with your package manager command if you're using a different Linux distribution (e.g., `apt` for Ubuntu, `pacman` for Arch).
 
 ```bash
-sudo zypper install git stow alacritty tmux fzf fastfetch tealdeer bat neovim fish hyperland waybar wofi btop
+sudo zypper install git stow alacritty tmux fzf fastfetch tealdeer bat neovim fish
