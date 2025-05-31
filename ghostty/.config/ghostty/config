@@ -1,0 +1,85 @@
+# This is the configuration file for Ghostty.
+#
+# This template file has been automatically created at the following
+# path since Ghostty couldn't find any existing config files on your system:
+#
+#   /home/aghara/.config/ghostty/config
+#
+# The template does not set any default options, since Ghostty ships
+# with sensible defaults for all options. Users should only need to set
+# options that they want to change from the default.
+#
+# Run `ghostty +show-config --default --docs` to view a list of
+# all available config options and their default values.
+#
+# Additionally, each config option is also explained in detail
+# on Ghostty's website, at https://ghostty.org/docs/config.
+
+shell-integration = fish
+
+# Config syntax crash course
+# ==========================
+# # The config file consists of simple key-value pairs,
+# # separated by equals signs.
+font-family = 0xProto Nerd Font
+font-size = 15
+
+
+maximize = true
+window-decoration = none
+
+theme = rose-pine
+
+keybind = f12=toggle_fullscreen
+# keybind = alt+q>n=new_window
+
+keybind = alt+q>c=new_tab
+keybind = alt+q>x=close_surface
+keybind = alt+q>b=previous_tab
+keybind = alt+q>n=next_tab
+keybind = alt+q>1=goto_tab:1
+keybind = alt+q>2=goto_tab:2
+keybind = alt+q>3=goto_tab:3
+keybind = alt+q>4=goto_tab:4
+keybind = alt+q>5=goto_tab:5
+keybind = alt+q>6=goto_tab:6
+keybind = alt+q>7=goto_tab:7
+keybind = alt+q>8=goto_tab:8
+keybind = alt+q>9=goto_tab:9
+keybind = alt+q>0=goto_tab:10
+
+keybind = alt+q>\=new_split:right
+keybind = alt+q>-=new_split:down
+
+keybind = alt+q>h=goto_split:left
+keybind = alt+q>j=goto_split:bottom
+keybind = alt+q>k=goto_split:top
+keybind = alt+q>l=goto_split:right
+
+keybind = alt+q>left=resize_split:left,10
+keybind = alt+q>down=resize_split:down,10
+keybind = alt+q>up=resize_split:up,10
+keybind = alt+q>right=resize_split:right,10
+
+
+# window-padding-x = 2
+#
+# # Spacing around the equals sign does not matter.
+# # All of these are identical:
+# key=value
+# key= value
+# key =value
+# key = value
+#
+# # Any line beginning with a # is a comment. It's not possible to put
+# # a comment after a config option, since it would be interpreted as a
+# # part of the value. For example, this will have a value of "#123abc":
+# background = #123abc
+#
+# # Empty values are used to reset config keys to default.
+# key =
+#
+# # Some config options have unique syntaxes for their value,
+# # which is explained in the docs for that config option.
+# # Just for example:
+# resize-overlay-duration = 4s 200ms
