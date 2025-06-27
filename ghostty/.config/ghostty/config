@@ -30,6 +30,8 @@ window-decoration = none
 
 theme = rose-pine
 
+window-new-tab-position = end
+
 keybind = f12=toggle_fullscreen
 # keybind = alt+q>n=new_window
 
