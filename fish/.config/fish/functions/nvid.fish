@@ -1,10 +1,10 @@
-function pnvim
+function nvid
     # Define root directories with max depth
     set roots_with_depths \
         "~/Documents/Programming/languages:2" \
         "~/Documents/Programming/projects:1" \
-        "~/.dotfiles:2" \
-        "~/.config:1"
+        "~/.dotfiles:3"
+	# "~/.config:1"
 
     # Collect directories
     set dirs

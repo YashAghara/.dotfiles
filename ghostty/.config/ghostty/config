@@ -21,8 +21,9 @@ shell-integration = fish
 # ==========================
 # # The config file consists of simple key-value pairs,
 # # separated by equals signs.
-font-family = 0xProto Nerd Font
-font-size = 15
+# font-family = 0xProto Nerd Font
+font-family = JetBrainsMono Nerd Font
+font-size = 16
 
 
 maximize = true

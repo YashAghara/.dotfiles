@@ -9,11 +9,13 @@
 {
   "ui_font_family": "Ubuntu",
   "ui_font_size": 20,
-  "buffer_font_family": "0xProto Nerd Font",
-  "buffer_font_size": 18,
+  "buffer_font_family": "JetBrainsMono Nerd Font",
+  "buffer_font_size": 20,
   "theme": {
     "mode": "system",
     "light": "Rosé Pine Dawn",
     "dark": "Rosé Pine"
-  }
+  },
+  "vim_mode": true,
+  "relative_line_numbers": true
 }
