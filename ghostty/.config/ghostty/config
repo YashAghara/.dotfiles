@@ -22,14 +22,14 @@ shell-integration = fish
 # # The config file consists of simple key-value pairs,
 # # separated by equals signs.
 # font-family = 0xProto Nerd Font
-font-family = JetBrainsMono Nerd Font
+font-family = "JetBrainsMono Nerd Font"
 font-size = 16
 
 
 maximize = true
 window-decoration = none
 
-theme = rose-pine
+theme = Rose Pine
 
 window-new-tab-position = end
 
